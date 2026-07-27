@@ -5,14 +5,35 @@
     --fundo-senha: #3B7597;
     --fundo-texto: #6FD1D7;
     --borda: #5DF8D8;
-    --fira-sans: "Fira Sans", sans-serif;
+    --fonte: "Fira Sans", sans-serif;
 
 }
+
 *{
     font-weight:400;
 }
+
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--fira-sans)
+    font-family: var(--fonte)
+}
+
+.titulo-principal{
+    font-family: var(--fonte)
+}
+
+.titulo-secundario{
+    font-size: 24px;
+    text-align: center;
+    margin: 80px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.cadeado-conteudo{
+    width: 100px;
 }
